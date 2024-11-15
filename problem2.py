@@ -26,3 +26,15 @@ Enter a number: 4
 Enter another number: 25
 4 is not a factor of 25
 """
+y=input("Number:")
+#convert to a number
+y= int(y)
+
+x=input("Number:")
+#convert to a number
+x= int(x)
+
+if y % x == 0:
+    print(f"{x} is a factory of {y}")
+else:
+    print(f"{x} is not a factor of {y}")
